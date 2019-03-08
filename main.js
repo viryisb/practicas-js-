@@ -146,7 +146,7 @@ console.log(unirNombre ('virginia' , ' bernasconi')) */
 } 
 console.log (saludar ('virginia')) */
 
-function obtenerPrimerElemento (array){
+/* function obtenerPrimerElemento (array){
   return array[0]
   }
 
@@ -154,8 +154,13 @@ function obtenerPrimerElemento (array){
 let peliculasBatman = ["Batman Begins", "The Dark Knight", "The Dark Knight Rises"];
  let numeros = [1, 2,3 ]
  console.log( obtenerPrimerElemento(peliculasBatman) );
- console.log(obtenerPrimerElemento(numeros)) 
-   
-
+ console.log(obtenerPrimerElemento(numeros))  */
  
+ function obtenerUltimoElemento(array) {
+   return array[array.length-1]
+ }
+ 
+ var peliculasBatman = ["Batman Begins", "The Dark Knight", "The Dark Knight Rises"];
+ 
+ console.log (obtenerUltimoElemento(peliculasBatman))
  
