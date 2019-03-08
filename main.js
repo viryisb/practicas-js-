@@ -156,11 +156,23 @@ let peliculasBatman = ["Batman Begins", "The Dark Knight", "The Dark Knight Rise
  console.log( obtenerPrimerElemento(peliculasBatman) );
  console.log(obtenerPrimerElemento(numeros))  */
  
- function obtenerUltimoElemento(array) {
+ /* function obtenerUltimoElemento(array) {
    return array[array.length-1]
  }
  
  var peliculasBatman = ["Batman Begins", "The Dark Knight", "The Dark Knight Rises"];
  
- console.log (obtenerUltimoElemento(peliculasBatman))
+ console.log (obtenerUltimoElemento(peliculasBatman)) */
+
+ function calcularSumatoria (array) {
+  let suma = 0;
+  for (let i = 0; i < array.length; i++) {
+      suma += array[i] }
+      return suma
+  
+ }
+ let numeros = [7, 4, 1, 8, 9, 4, 9];
+ console.log (calcularSumatoria (numeros))
+
+ 
  
