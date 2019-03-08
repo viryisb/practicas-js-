@@ -124,26 +124,37 @@ console.log (esPar(80)) */
 console.log (esImpar(3))
   */
 
- function exclamar(str) {
+ /* function exclamar(str) {
   // agregar un punto de exclamacion al principio y final del string que llega como parametro
   // retornar el nuevo string
   // por ejemplo: si el parametro es 'hola mundo' -> '¡hola mundo!'
   return str + '!'
 }
 console.log(exclamar('hola a todos'))
-
+ */
 /* function unirNombre(nombre, apellido) {
+  return nombre.concat(apellido)
   // return nombre y apellido unidos en un solo string, separados por un espacio
   // 'Ada', 'Lovelace' -> 'Ada Lovelace'
 }
+console.log(unirNombre ('virginia' , ' bernasconi')) */
 
-function saludar(nombre) {
+/* function saludar(nombre) {
+  return 'hola '.concat(nombre)
   // recibimos un parametro nombre y tenemos que concatenarlo con otro string para generar el siguiente mensaje: 'Ada' -> '¡Hola Ada!'
   // si querés, podés reutilizar la función exclamar() que creamos más arriba
-} */
+} 
+console.log (saludar ('virginia')) */
+
+function obtenerPrimerElemento (array){
+  return array[0]
+  }
 
 
- 
+let peliculasBatman = ["Batman Begins", "The Dark Knight", "The Dark Knight Rises"];
+ let numeros = [1, 2,3 ]
+ console.log( obtenerPrimerElemento(peliculasBatman) );
+ console.log(obtenerPrimerElemento(numeros)) 
    
 
  
